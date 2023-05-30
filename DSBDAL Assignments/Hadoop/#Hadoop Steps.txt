@@ -1,15 +1,17 @@
 #Hadoop Steps
 
-1.Make input.txt file and open terminal in same folder
+1.Make input.txt file and #open terminal in same folder
 
 2. start -dfs.sh
    start -yarn.sh 
 
-3.hdfs dfs -ls
+3.hdfs dfs -mkdir /input_dir
 
-4.hdfs dfs -put file(with proper path)
+4.hdfs dfs -put /input.txt/input_dir (with proper path)
 
-5.hdfs dfs -ls
+5. hdfs dfs -ls /input_dir/
+   hdfs dfs -cat /input_dir/input.txt     #show contents
+  
 
 6.yarn jar /home/vijay/words/words12.jar WordCount /input.txt /output
 
