@@ -1,0 +1,11 @@
+#gedit if req
+
+#s2.scala file has sample obj containing main method
+#input.txt file is also mentioned in s2.scala
+
+
+1. spark-shell
+
+2. load ./s2.scala
+
+3. sample.main(Array())
